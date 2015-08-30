@@ -2,14 +2,14 @@ require "formula"
 
 class Gotty < Formula
   homepage "https://github.com/yudai/gotty"
-  version 'v0.0.6'
+  version 'v0.0.7'
 
-  url "https://github.com/yudai/gotty/releases/download/v0.0.6/darwin_amd64.tar.gz"
-  sha1 "c8e3b07389525237a47babb3a240db1828c7cd97"
+  url "https://github.com/yudai/gotty/releases/download/v0.0.7/darwin_amd64.tar.gz"
+  sha1 "42e4de034789bc732bccbaf21bf666149928958a"
 
   if OS.linux? && Hardware.is_64_bit?
-      url "https://github.com/yudai/gotty/releases/download/v0.0.6/linux_amd64.tar.gz"
-      sha1 "1d487f5feb0f0398a40a3c97364695c07c71937b"
+      url "https://github.com/yudai/gotty/releases/download/v0.0.7/linux_amd64.tar.gz"
+      sha1 "31df9a5979cff2a4db771265952ffcba85fb8bbe"
   end
 
   depends_on :arch => :intel
