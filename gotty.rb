@@ -1,15 +1,15 @@
 require "formula"
 
 class Gotty < Formula
-  homepage "https://github.com/yudai/gotty"
-  version 'v1.0.1'
+  homepage "https://github.com/sorenisanerd/gotty"
+  version 'v1.1.0'
 
-  url "https://github.com/yudai/gotty/releases/download/v1.0.1/gotty_darwin_amd64.tar.gz"
-  sha256 "ad74832b344480e6647ee9d0c14c783b024735bad8c8a711b1db2284c38cdcfe"
+  url "https://github.com/sorenisanerd/gotty/releases/download/v1.1.0/gotty_darwin_amd64.tar.gz"
+  sha256 "604e790cf1b1f587a099aea29e8a8c2dc8cc4c2a424a827d8645b07f5497c45b"
 
   if OS.linux? && Hardware.is_64_bit?
-      url "https://github.com/yudai/gotty/releases/download/v1.0.1/gotty_linux_amd64.tar.gz"
-      sha256 "3ff6e0fda6b946e35b0d5fc038054b4b7e8b9558ab697f0a61dc63cebaabd2e1"
+      url "https://github.com/sorenisanerd/gotty/releases/download/v1.1.0/gotty_linux_amd64.tar.gz"
+      sha256 "90d264ac193149c1f10aad47d630bcea066127a373e68ffe4e9cdb6deea4e27d"
   end
 
   depends_on :arch => :intel

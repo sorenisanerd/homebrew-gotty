@@ -1,3 +1,3 @@
 # Homebrew Tap for GoTTY
 
-See: [yudai/gotty](https://github.com/yudai/gotty)
+See: [sorenisanerd/gotty](https://github.com/sorenisanerd/gotty)
