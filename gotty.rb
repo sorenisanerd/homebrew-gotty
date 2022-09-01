@@ -2,21 +2,21 @@ require "formula"
 
 class Gotty < Formula
   homepage "https://github.com/sorenisanerd/gotty"
-  version '1.4.0'
+  version '1.5.0'
 
   if OS.mac? && Hardware::CPU.arm?
-      url "https://github.com/sorenisanerd/gotty/releases/download/v1.4.0/gotty_v1.4.0_darwin_arm64.tar.gz"
-      sha256 "e076ea00dd5ed23f9d2f0c381768dec8666ece3b022719d24999ac5540952ae5"
+      url "https://github.com/sorenisanerd/gotty/releases/download/v1.5.0/gotty_v1.5.0_darwin_arm64.tar.gz"
+      sha256 "f058003158b0622474a799c658ebc78d62abd776927e9a29c1008a2caa6d287f"
   end
 
   if OS.mac? && Hardware::CPU.intel?
-      url "https://github.com/sorenisanerd/gotty/releases/download/v1.4.0/gotty_v1.4.0_darwin_amd64.tar.gz"
-      sha256 "de4b68e1b14daf18bce8b3a47d49193f3ef9d12da12538d6f1bd3d5bceb9e6aa"
+      url "https://github.com/sorenisanerd/gotty/releases/download/v1.5.0/gotty_v1.5.0_darwin_amd64.tar.gz"
+      sha256 "23e7914d8911d73481acc9d2a9e86b2efc6964cd7b659757d1e417f651cc8af9"
   end
 
   if OS.linux? && Hardware::CPU.is_64_bit?
-      url "https://github.com/sorenisanerd/gotty/releases/download/v1.4.0/gotty_v1.4.0_linux_amd64.tar.gz"
-      sha256 "79c315166c1f30bf12cc55c48c177b444cae342f55d846c928894d6f4658cf4f"
+      url "https://github.com/sorenisanerd/gotty/releases/download/v1.5.0/gotty_v1.5.0_linux_amd64.tar.gz"
+      sha256 "2d33af44cd9a179d8dd845dcd4b75698b5cbe6a38dd16796e3341be5a6785cca"
   end
 
   def install
